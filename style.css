@@ -1,0 +1,25 @@
+.top-page{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(./pexels-martin-péchy-2763964.jpg);
+    background-size: cover;
+    background-repeat: repeat;
+}
+
+header {
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 70px;
+}
+li {
+    font-size: 30px;
+    float: left;
+    margin-left: 60px;
+    color: black;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
