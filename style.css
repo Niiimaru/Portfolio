@@ -1,7 +1,7 @@
 .top-page{
     height: 100vh;
     width: 100vw;
-    background-image: url(./pexels-martin-péchy-2763964.jpg);
+    background-image: url(./pexels-veeterzy-1412235.jpg);
     background-size: cover;
     background-repeat: repeat;
 }
@@ -13,13 +13,20 @@ header {
     justify-content: space-between;
     padding: 20px 70px;
 }
+.header-right {
+    margin-left: auto;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
 li {
-    font-size: 30px;
-    float: left;
-    margin-left: 60px;
-    color: black;
+    font-size: 20px;
+    margin-left: 20px;
 }
 a {
     text-decoration: none;
-    color: black;
+    color:black;
 }
