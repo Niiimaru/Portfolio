@@ -30,3 +30,24 @@ a {
     text-decoration: none;
     color:black;
 }
+
+/*main visual のcss*/
+.main-visual {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.main-visual h1 {
+    font-size: 120px;
+    color:white;
+    text-align: center;
+}
+.main-visual p {
+    font-size: 26px;
+    color: white;
+    width: 80%;
+    margin-top: 30px;
+    text-align: center;
+}
