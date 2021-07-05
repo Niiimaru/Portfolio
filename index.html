@@ -60,15 +60,17 @@
         </div>
         
     </section>
-
+    
     <section id="contact">
         <h1>Contact</h1>
+        <form method="POST" action="./toiawase/check.php" >
         <div class="contact-wrap">
-            <input type="text" name="text" placeholder="Name">
+            <input type="text" name="nickname" placeholder="Nickname">
             <input type="email" name="email" placeholder="Email">
-            <textarea name="" id="" cols="30" rows="10"></textarea>
-            <button type="submit">submit</button>
+            <textarea name="content" id="" cols="30" rows="10" placeholder="お問い合わせ内容"></textarea>
+            <button type="submit" value="送信">送信</button>
         </div>
+        </form>
     </section>
 
     <footer>
