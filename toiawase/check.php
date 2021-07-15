@@ -28,6 +28,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>入力内容確認</title>
+    <link rel="stylesheet" href="check.css">
 </head>
 <body>
     <h1>お問い合わせ内容</h1>
@@ -41,7 +42,6 @@
         <input type="hidden" name="content" value="<?php echo $content; ?>">
 
         <button type="button" onclick="history.back()">戻る</button>
-
         <?php if ($nickname !== '' && $email !== '' && $content !== ''): ?>
             <input type="submit" value="送信">
         <?php endif ?>
