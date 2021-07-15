@@ -12,9 +12,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>送信完了</title>
+    <link rel="stylesheet" href="../css/thanks.css">
 </head>
 <body>
-    <p>お問い合わせありがとうございました！</p>
+    <h1>お問い合わせありがとうございました！</h1>
     <p>ニックネーム : <?php echo $nickname; ?></p>
     <p>メールアドレス : <?php echo $email; ?></p>
     <p>お問い合わせ内容 : <?php echo $content; ?></p>
